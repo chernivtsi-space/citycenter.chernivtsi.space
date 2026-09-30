@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://citycenter.chernivtsi.space/sitemap.xml
