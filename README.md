@@ -3,7 +3,7 @@
 Live site: https://citycenter.chernivtsi.space
 
 ## About
-City Center Residence — готель у Чернівцях. Односторінковий лендинг без фото (`photos_source: null`): типографіка та CSS/SVG-графіка.
+City Center Residence — готель у Чернівцях. Односторінковий лендинг. Фото закладу немає (`photos_source: null`), тому hero типографічний (CSS/SVG), а єдині фото — міста Чернівців з Pexels (див. Photos).
 
 ## Hero concept
 Панель ліфта: табло з «28 номерів», кнопки-зручності (горить «Ліфт») і адресна табличка. Ліфт — підтверджена зручність.
@@ -35,6 +35,13 @@ Booking.com 8.7/10 (136), Google 4.0/5 (490). Знімок на 30.09.2026, пл
 
 ## Forms
 HotelOS (`ch-citycenter`): `stay-request` (проживання). Документ `hotels/ch-citycenter` у Firestore треба створити вручну, інакше правила відхилять заявки.
+
+## Photos
+Лише фото міста (не готелю), з Pexels, підключені за прямими посиланнями images.pexels.com (без копій у репо), з підписами та авторами на сторінці:
+
+- Вежа з годинником Резиденції митрополитів: pexels.com/photo/23881442 (Constantin Ch)
+- Чернівці крізь арку: pexels.com/photo/17265268 (Андрій Копічевський)
+- Дворик, оповитий плющем: pexels.com/photo/17268819 (Андрій Копічевський)
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
