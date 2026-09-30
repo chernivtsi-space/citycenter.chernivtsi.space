@@ -34,7 +34,7 @@ Booking.com 8.7/10 (136), Google 4.0/5 (490). Знімок на 30.09.2026, пл
 Зірковість (Google Hotels і Booking показують 4★, офіційного джерела немає), «у центрі міста» (лише з назви), email, сайт, Instagram, категорії номерів. 28 номерів — з Hotels24 (medium), у schema не передано.
 
 ## Forms
-HotelOS (`kp-citycenter`): `stay-request` (проживання). Документ `hotels/kp-citycenter` у Firestore треба створити вручну, інакше правила відхилять заявки.
+HotelOS (`ch-citycenter`): `stay-request` (проживання). Документ `hotels/ch-citycenter` у Firestore треба створити вручну, інакше правила відхилять заявки.
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
