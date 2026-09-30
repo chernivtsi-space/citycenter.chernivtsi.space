@@ -21,6 +21,19 @@ City Center Residence — готель у Чернівцях. Односторі
 ## Check-in / check-out
 Заїзд 14:00–24:00; Виїзд 08:00–12:00
 
+## Rooms (Booking.com room table; T&S and Панський Двір 2 from the official site)
+- Двомісний номер економ-класу — 1 двоспальне ліжко
+- Двомісний номер з 2 односпальними ліжками — 2 односпальні ліжка
+- Напівлюкс — 1 двоспальне ліжко
+- Люкс — 1 двоспальне ліжко й диван-ліжко
+- Покращений люкс — 1 двоспальне ліжко й диван-ліжко
+
+## House rules (Booking.com)
+- Що потрібно при заселенні? Посвідчення особи та кредитна картка. Повідомте заздалегідь, о котрій приїдете.
+- Чи можна з дітьми? Так, діти будь-якого віку. Дитяче ліжечко для малюків до 2 років — безкоштовно, додаткове ліжко — 300 грн за ніч. Обидва — на запит і за наявності.
+- Чи можна з домашньою твариною? Так, за попереднім запитом. Може стягуватися доплата.
+- Чи можна провести вечірку? Ні, вечірки й заходи заборонені.
+
 ## Reviews
 Booking.com 8.7/10 (136), Google 4.0/5 (490). Знімок на 30.09.2026, платформи окремо, без aggregateRating.
 
@@ -29,6 +42,9 @@ Booking.com 8.7/10 (136), Google 4.0/5 (490). Знімок на 30.09.2026, пл
 - Booking.com: https://www.booking.com/hotel/ua/city-center-residence.en-gb.html
 - Google Maps: https://maps.google.com/?cid=11333068226875083733
 - Address: вул. Ольги Кобилянської, 36, Чернівці
+
+## Sources
+Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `facts.json` in the build scratchpad.
 
 ## Not published
 Зірковість (Google Hotels і Booking показують 4★, офіційного джерела немає), «у центрі міста» (лише з назви), email, сайт, Instagram, категорії номерів. 28 номерів — з Hotels24 (medium), у schema не передано.
