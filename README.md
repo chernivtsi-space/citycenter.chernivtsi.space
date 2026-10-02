@@ -44,10 +44,20 @@ Booking.com 8.7/10 (136), Google 4.0/5 (490). Знімок на 30.09.2026, пл
 - Address: вул. Ольги Кобилянської, 36, Чернівці
 
 ## Sources
-Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `facts.json` in the build scratchpad.
+Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `shared/build/facts.json` у робочому просторі (поза репозиторієм сайту).
+
+## Property-specific sections
+- `#arrival` Сніданок, трансфер і багаж
 
 ## Not published
-Зірковість (Google Hotels і Booking показують 4★, офіційного джерела немає), «у центрі міста» (лише з назви), email, сайт, Instagram, категорії номерів. 28 номерів — з Hotels24 (medium), у schema не передано.
+Зірковість (Google Hotels і Booking показують 4★, офіційного джерела немає), «у центрі міста» (лише з назви), відстань до центру, email, сайт, Instagram, примітка Booking про номер без вікон (неясно, якої категорії вона стосується). 28 номерів — з Hotels24 (medium), у schema не передано.
+
+## Content TODO (не показується на сторінці)
+- [ ] TODO: з’ясувати, яка категорія — «Standard Double Room» без вікон (Booking); якщо це «Двомісний номер економ-класу», показати це в картці номера
+- [ ] TODO: уточнити, чи трансфер платний
+- [ ] TODO: підтвердити кількість номерів (28 — лише Hotels24)
+- [ ] TODO: отримати власні фото закладу (фасад, рецепція, номери, ванні) і погодити їх використання — потім додати галерею
+- [ ] TODO: перевірити ціни й наявність через сам готель; на сторінці цін немає
 
 ## Forms
 HotelOS (`ch-citycenter`): `stay-request` (проживання). Документ `hotels/ch-citycenter` у Firestore треба створити вручну, інакше правила відхилять заявки.
